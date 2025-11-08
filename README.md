@@ -31,6 +31,7 @@ This project demonstrates a **self-corrective multimodal pipeline** that uses mu
 - 🌗 Supports light/dark mode and multilingual voices
 
 ---
+```
 User Input (Image / Audio / Text)
 ↓
 1️⃣ Whisper — Speech-to-Text
@@ -42,7 +43,7 @@ User Input (Image / Audio / Text)
 4️⃣ Kokoro TTS — Text-to-Speech
 ↓
 Final Output: Corrected Text + Natural Audio
-
+```
 
 ---
 
@@ -113,16 +114,17 @@ KOKORO_REPO_ID=hexgrad/Kokoro-82M
 🔐 Note: Get your Gemini API key from https://ai.google.dev
 
 🧠 Running the Application
-▶️ Step 1: Start the Flask Backend
+
+Step 1: Start the Flask Backend
 ```
 python -m app.backend.services.flask_app
 ```
 
 Backend will run at:
 
-http://127.0.0.1:5000/
+# http://127.0.0.1:5000/
 
-▶️ Step 2: Launch the Gradio Frontend
+Step 2: Launch the Gradio Frontend
 
 Open another terminal (keep backend running):
 ```
@@ -131,15 +133,15 @@ python -m app.frontend.gradio_app
 
 Gradio UI will run at:
 
-http://127.0.0.1:7860/
+# http://127.0.0.1:7860/
 
 💬 Usage Guide
 
-Upload an image (e.g., a certificate or document)
+- Upload an image (e.g., a certificate or document)
 
-Record or upload a voice query, or type your question
+- Record or upload a voice query, or type your question
 
-Click “Analyze & Correct”
+- Click “Analyze & Correct”
 
 The pipeline performs:
 
@@ -151,7 +153,7 @@ Self-correction (Gemini second pass)
 
 Summarization + Voice generation (Kokoro)
 
-View:
+- View:
 
 🧩 Initial AI Analysis
 
@@ -161,12 +163,12 @@ View:
 
 🧩 Example Workflow
 
-Input:
+- Input:
 
 Image: Internship certificate
 Voice Query: “Who is this certificate issued to and what is it for?”
 
-System Process:
+- System Process:
 
 Whisper → converts speech to text
 
@@ -176,13 +178,11 @@ Correction Gemini → verifies and rewrites response
 
 Kokoro → generates voice output
 
-Final Output:
+- Final Output:
 
-Text:
-“The certificate is issued to Smriti Pramod Dube for successfully completing an AI internship with Compozent.”
+Text: “The certificate is issued to Smriti Pramod Dube for successfully completing an AI internship with Compozent.”
 
-Audio:
-Spoken version of the corrected response.
+Audio: Spoken version of the corrected response.
 
 🧩 Model Details
 ```
@@ -195,49 +195,19 @@ Spoken version of the corrected response.
 ```
 🖥️ User Interface Highlights
 
-Built with Gradio Blocks API
+- Built with Gradio Blocks API
 
-Responsive and lightweight
+- Responsive and lightweight
 
-Language and voice selection controls
+- Language and voice selection controls
 
-Real-time transcription feedback
+- Real-time transcription feedback
 
-Clean light/dark mode support
-
-📄 Project Report
-
-📘 Full project documentation available in:
-/report/Vision_Voice_Multimodal_Report.docx
-
-The report includes:
-
-Aim & Objectives
-
-Architecture & Model Descriptions
-
-Code Flow & Screenshots
-
-Results & Output
-
-Future Enhancements
-
-🔮 Future Enhancements
-
-📷 Add real-time webcam & microphone input
-
-🌐 Introduce offline fallback models
-
-💬 Enable conversation memory
-
-🧾 Integrate certificate authenticity checker
-
-☁️ Deploy on Hugging Face / Streamlit Cloud
-
+- Clean light/dark mode support
 
 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with proper credit.
-💬 “An AI system that listens, sees, understands — and corrects itself. That’s true multimodal intelligence.”
+“An AI system that listens, sees, understands — and corrects itself. That’s true multimodal intelligence.”
 ---
