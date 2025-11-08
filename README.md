@@ -48,7 +48,7 @@ Final Output: Corrected Text + Natural Audio
 
 ## 📁 Project Structure
 
-
+```
 VisionVoiceMultimodalApplication/
 │
 ├── app/
@@ -70,7 +70,7 @@ VisionVoiceMultimodalApplication/
 ├── .env
 └── README.md
 ---
-
+```
 ## ⚙️ Setup Instructions
 
 ### 🪄 Step 1: Clone the Repository
