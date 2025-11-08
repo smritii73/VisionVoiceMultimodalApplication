@@ -122,7 +122,7 @@ python -m app.backend.services.flask_app
 
 Backend will run at:
 
-# http://127.0.0.1:5000/
+#### http://127.0.0.1:5000/
 
 Step 2: Launch the Gradio Frontend
 
@@ -133,7 +133,7 @@ python -m app.frontend.gradio_app
 
 Gradio UI will run at:
 
-# http://127.0.0.1:7860/
+#### http://127.0.0.1:7860/
 
 💬 Usage Guide
 
