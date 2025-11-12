@@ -1,13 +1,6 @@
 # 🧠 Vision-Voice Multimodal Correction Agent
 *A Data Science Mini Project integrating Vision, Voice, and Text models for self-corrective AI reasoning.*
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-Backend-orange?logo=flask)](https://flask.palletsprojects.com/)
-[![Gradio](https://img.shields.io/badge/Gradio-Frontend-lightblue?logo=gradio)](https://www.gradio.app/)
-[![Google Gemini](https://img.shields.io/badge/Google-Gemini-green?logo=google)](https://ai.google.dev/)
-[![OpenAI Whisper](https://img.shields.io/badge/OpenAI-Whisper-red?logo=openai)](https://github.com/openai/whisper)
-[![Kokoro TTS](https://img.shields.io/badge/TTS-Kokoro-purple)](https://huggingface.co/hexgrad/Kokoro-82M)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
